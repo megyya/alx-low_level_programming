@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Starting point of the program that uses puts
+ * main - Starting point of the program that uses puts and not printf
  *
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
