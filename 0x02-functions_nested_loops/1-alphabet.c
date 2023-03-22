@@ -1,17 +1,16 @@
 #include "main.h"
 /**
- * main - entry
- * description : prints alphabets lower case
- * Return: always 0 (success)
+ * print_alphabet - prints the lowercase alphabet followed by a new line
+ ** This function prints the letters of the lowercase alphabet
+ * followed by a new line character. It does not take any parameters.
  */
-
 void print_alphabet(void)
 {
-int i;
-for (i = 97; i <= 122; i++)
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
 
-_putchar(i);
+_putchar(c);
 }
 _putchar('\n');
 
