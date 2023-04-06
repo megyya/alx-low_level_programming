@@ -2,7 +2,7 @@
 /**
 * is_prime_number - Checks if a number is prime.
 * @n: The number to check.
-*
+* @i: current integer being tested as a factor
 * Return: 1 if n is prime, 0 otherwise.
 */
 int is_prime_helper(int n, int i);
